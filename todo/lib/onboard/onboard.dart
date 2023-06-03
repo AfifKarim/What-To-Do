@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../constants/constant.dart';
-import '../home.dart';
+import '../screens/home.dart';
 import 'onboard_model.dart';
 
 class OnBoard extends StatefulWidget {
