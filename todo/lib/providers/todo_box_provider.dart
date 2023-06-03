@@ -3,5 +3,5 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 import '../models/todo.dart';
 
 final todoBoxProvider = FutureProvider<Box<Todo>>(
-  (ref) => Hive.openBox<Todo>("items"),
+  (ref) => Hive.openBox<Todo>("todos"),
 );

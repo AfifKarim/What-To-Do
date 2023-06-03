@@ -30,7 +30,7 @@ class TodoSheet extends HookConsumerWidget {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               Text(
-                "${model.isEditing ? "Edit": "Create"} ToDo",
+                "${model.isEditing ? "Edit": "Create"} To Do",
                 style: style.headlineSmall,
               ),
               const SizedBox(height: 16),
